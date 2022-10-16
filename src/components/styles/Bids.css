@@ -1,0 +1,22 @@
+
+.walletLoader{
+    display: absolute;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.bidHeader {
+    display: block;
+    width: 100%;
+    height: 5vh;
+    /* background-color: grey; */
+    text-align: center;
+    color:white;
+}
+
+.bids {
+    display: block;
+    width: 20vh;
+    height: 30vh;
+    background-color: teal;
+}

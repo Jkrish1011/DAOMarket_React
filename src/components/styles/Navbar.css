@@ -1,0 +1,46 @@
+.connectWallet {
+    display: absolute;
+    /* background-color: #5c5e5e; */
+    color: white;
+    /* border: 1px solid white; */
+    /* margin: 0 2rem; */
+    padding: 3px;
+    height: 100%;
+}
+
+.skillheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.skillheader > .logo {
+    margin-left: 1rem;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.item {
+    display: flex;
+    
+}
+
+.item > .ul {
+    display: flex;
+    margin: 25px;
+    list-style-type: none;
+}
+
+.item > .ul > li {
+    margin: 0 2rem;
+    list-style-type: none;
+}
+
+.item > .ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}

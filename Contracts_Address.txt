@@ -1,0 +1,34 @@
+Nothing to compile
+No need to generate any newer typings.
+----------------------------------------------------
+Deploying GovernanceToken and waiting for confirmations...
+reusing "GovernanceToken" at 0x8837478f430AbEf653e01fCDeB809686eac8D1AD
+GovernanceToken at 0x8837478f430AbEf653e01fCDeB809686eac8D1AD
+minting!
+Done minting!
+Delegating to 0x5Ecd8cCA5db51Dfb5879438a81A548A46AC2f45f
+Checkpoints: 1
+Delegated!
+----------------------------------------------------
+Deploying TimeLock and waiting for confirmations...
+deploying "TimeLock" (tx: 0xd1e061b96e712fbd25716e123eaabdfa81789347caf4e65060b5e3383de3e4db)...: deployed at 0x566ff571fEF855e3CEa999D5a303BDede90D3509 with 1870979 gas
+TimeLock at 0x566ff571fEF855e3CEa999D5a303BDede90D3509
+----------------------------------------------------
+Deploying GovernorContract and waiting for confirmations...
+deploying "GovernorContract" (tx: 0x56ee25f7bd76b83f7d24dbe628656df48afd66d98209002107c4736bbf4b8211)...: deployed at 0x7b209C2A217315A2eDD9d2049Dd678Ad5B243A85 with 3276643 gas
+GovernorContract at 0x7b209C2A217315A2eDD9d2049Dd678Ad5B243A85
+----------------------------------------------------
+Setting up contracts for roles...
+----------------------------------------------------
+Deploying Registry. ERC1616 compatible...
+deploying "Registry" (tx: 0xd06e563c77f639958707537f6ec12e986cf86a44b9d5704c5d38cdc8f3921b60)...: deployed at 0x4C3864Ab2a767874D9B114F9a9642F67805F2108 with 310213 gas
+Registry deployed at 0x4C3864Ab2a767874D9B114F9a9642F67805F2108
+BigNumber { _hex: '0x00', _isBigNumber: true }
+----------------------------------------------------
+Deploying commodity and waiting for confirmations...
+Registry Contract Address : [0x4C3864Ab2a767874D9B114F9a9642F67805F2108]
+deploying "Commodity" (tx: 0x776afd52e0f566ea3896b1e11725579e22f5bcc76e3f06439440e0b9fb9d8f83)...: deployed at 0x241cE5F30de4c60fD2bFe5bCe8b7c96b6421A1Fd with 318363 gas
+commodity deployed at 0x241cE5F30de4c60fD2bFe5bCe8b7c96b6421A1Fd
+✨  Done in 488.21s.
+
+

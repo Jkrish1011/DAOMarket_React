@@ -1,0 +1,295 @@
+{
+  "address": "0x4C3864Ab2a767874D9B114F9a9642F67805F2108",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "senderAddr",
+          "type": "address"
+        }
+      ],
+      "name": "SenderAddress",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "addCommodityValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "countAttributeTypes",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAttributeTypeID",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "attributeTypeID",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAttributeValue",
+      "outputs": [
+        {
+          "internalType": "uint256[2]",
+          "name": "",
+          "type": "uint256[2]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "attributeTypeID",
+          "type": "uint256"
+        }
+      ],
+      "name": "hasAttribute",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateCommodityValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xd06e563c77f639958707537f6ec12e986cf86a44b9d5704c5d38cdc8f3921b60",
+  "receipt": {
+    "to": null,
+    "from": "0x5Ecd8cCA5db51Dfb5879438a81A548A46AC2f45f",
+    "contractAddress": "0x4C3864Ab2a767874D9B114F9a9642F67805F2108",
+    "transactionIndex": 86,
+    "gasUsed": "310213",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x1880e8b8dc7fff58753af2dbc2b1f66bafd6ba777e91fdb851dd9a6f8c2bbd8c",
+    "transactionHash": "0xd06e563c77f639958707537f6ec12e986cf86a44b9d5704c5d38cdc8f3921b60",
+    "logs": [],
+    "blockNumber": 7777413,
+    "cumulativeGasUsed": "16124995",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "0aa765102795e31d55f949b8f0540fb4",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"senderAddr\",\"type\":\"address\"}],\"name\":\"SenderAddress\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"addCommodityValue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"countAttributeTypes\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getAttributeTypeID\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"attributeTypeID\",\"type\":\"uint256\"}],\"name\":\"getAttributeValue\",\"outputs\":[{\"internalType\":\"uint256[2]\",\"name\":\"\",\"type\":\"uint256[2]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"attributeTypeID\",\"type\":\"uint256\"}],\"name\":\"hasAttribute\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newValue\",\"type\":\"uint256\"}],\"name\":\"updateCommodityValue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"countAttributeTypes()\":{\"details\":\"This function MUST return a positive integer value  - i.e. calling this function MUST NOT cause the caller to revert.\",\"returns\":{\"_0\":\"The number of available attribute types.\"}},\"getAttributeTypeID(uint256)\":{\"details\":\"This function MUST revert if the provided `index` value falls outside of the range of the value returned from a directly preceding or subsequent function call to `countAttributeTypes`. It MUST NOT revert if the provided `index` value falls inside said range.\",\"params\":{\"index\":\"uint256 The index of the attribute type in question.\"},\"returns\":{\"_0\":\"The ID of the attribute type.\"}},\"getAttributeValue(address,uint256)\":{\"details\":\"This function MUST revert if a directly preceding or subsequent function call to `hasAttribute` with identical `account` and `attributeTypeID` parameters would return false.\",\"params\":{\"account\":\"address The account to check for the given attribute value.\",\"attributeTypeID\":\"uint256 The ID of the attribute type to check for.\"},\"returns\":{\"_0\":\"The attribute value if the attribute is valid, reverts otherwise.\"}},\"hasAttribute(address,uint256)\":{\"details\":\"This function MUST return either true or false - i.e. calling this function MUST NOT cause the caller to revert.\",\"params\":{\"account\":\"address The account to check for a valid attribute.\",\"attributeTypeID\":\"uint256 The ID of the attribute type to check for.\"},\"returns\":{\"_0\":\"True if the attribute is assigned and valid, false otherwise.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"countAttributeTypes()\":{\"notice\":\"Count the number of attribute types defined by the registry.\"},\"getAttributeTypeID(uint256)\":{\"notice\":\"Get the ID of the attribute type at index `index`.\"},\"getAttributeValue(address,uint256)\":{\"notice\":\"Retrieve the value of the attribute of the type with ID `attributeTypeID` on the account at `account`, assuming it is valid.\"},\"hasAttribute(address,uint256)\":{\"notice\":\"Check if an attribute of the type with ID `attributeTypeID` has been assigned to the account at `account` and is currently valid.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/governance_standard/Registry.sol\":\"Registry\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/governance_standard/Registry.sol\":{\"content\":\"//SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"../interfaces/ERC1616.sol\\\";\\n\\ncontract Registry is ERC1616 {\\n    enum Affiliation { CommodityValue }\\n\\n    // Top-level information about attribute types held in a static array.\\n    uint256[1] private _attributeTypeIDs;\\n\\n    // Issued attributes held in a nested mapping by account & attribute type.\\n    mapping(address => mapping(uint256 => bool)) private _issuedAttributes;\\n\\n    event SenderAddress(address senderAddr);\\n\\n    // Issued attribute values held in a nested mapping by account & type.\\n    // uint256[2] = [PastValue, PresentValue]\\n    mapping(address => mapping(uint256 => uint256[2]))\\n        private _issuedAttributeValues;\\n\\n    constructor() {\\n        _attributeTypeIDs = [0];\\n    }\\n\\n    function addCommodityValue(uint256 value) external {\\n        uint256 commodityValueValueIndex = uint256(Affiliation.CommodityValue);\\n        // uint256 presentValueIndex = uint256(Affiliation.PresentValue);\\n        \\n        uint256 presentAttributeTypeID = _attributeTypeIDs[commodityValueValueIndex];\\n\\n        _issuedAttributes[msg.sender][presentAttributeTypeID] = true;\\n\\n        _issuedAttributeValues[msg.sender][presentAttributeTypeID] = [value, value];\\n        emit SenderAddress(msg.sender);\\n    }\\n\\n    function updateCommodityValue(uint256 newValue) external {\\n        uint256 commodityValueValueIndex = uint256(Affiliation.CommodityValue);\\n        // uint256 presentValueIndex = uint256(Affiliation.PresentValue);\\n        \\n        uint256 presentAttributeTypeID = _attributeTypeIDs[commodityValueValueIndex];\\n\\n        _issuedAttributes[msg.sender][presentAttributeTypeID] = true;\\n        uint256 currentPresentValue = _issuedAttributeValues[msg.sender][presentAttributeTypeID][1];\\n        _issuedAttributeValues[msg.sender][presentAttributeTypeID] = [currentPresentValue, newValue];\\n    }\\n\\n    /**\\n     * @notice Check if an attribute of the type with ID `attributeTypeID` has\\n     * been assigned to the account at `account` and is currently valid.\\n     * @param account address The account to check for a valid attribute.\\n     * @param attributeTypeID uint256 The ID of the attribute type to check for.\\n     * @return True if the attribute is assigned and valid, false otherwise.\\n     * @dev This function MUST return either true or false - i.e. calling this\\n     * function MUST NOT cause the caller to revert.\\n     */\\n    function hasAttribute(address account, uint256 attributeTypeID)\\n        external\\n        view\\n        returns (bool)\\n    {\\n        // Return assignment status of attribute by account and attribute type ID\\n        return _issuedAttributes[account][attributeTypeID];\\n    }\\n\\n    /*\\n     * @notice Retrieve the value of the attribute of the type with ID\\n     * `attributeTypeID` on the account at `account`, assuming it is valid.\\n     * @param account address The account to check for the given attribute value.\\n     * @param attributeTypeID uint256 The ID of the attribute type to check for.\\n     * @return The attribute value if the attribute is valid, reverts otherwise.\\n     * @dev This function MUST revert if a directly preceding or subsequent\\n     * function call to `hasAttribute` with identical `account` and\\n     * `attributeTypeID` parameters would return false.\\n     */\\n    function getAttributeValue(address account, uint256 attributeTypeID)\\n        external\\n        view\\n        returns (uint256[2] memory)\\n    {\\n        // Revert if attribute with given account & attribute type ID is unassigned\\n        require(\\n            _issuedAttributes[account][attributeTypeID],\\n            \\\"Attribute type ID not found!\\\"\\n        );\\n        uint256[2] memory returnValue = _issuedAttributeValues[account][attributeTypeID];\\n        return returnValue;\\n    }\\n\\n    /**\\n     * @notice Count the number of attribute types defined by the registry.\\n     * @return The number of available attribute types.\\n     * @dev This function MUST return a positive integer value  - i.e. calling\\n     * this function MUST NOT cause the caller to revert.\\n     */\\n    function countAttributeTypes() external view returns (uint256) {\\n        return _attributeTypeIDs.length;\\n    }\\n\\n    /**\\n     * @notice Get the ID of the attribute type at index `index`.\\n     * @param index uint256 The index of the attribute type in question.\\n     * @return The ID of the attribute type.\\n     * @dev This function MUST revert if the provided `index` value falls outside\\n     * of the range of the value returned from a directly preceding or subsequent\\n     * function call to `countAttributeTypes`. It MUST NOT revert if the provided\\n     * `index` value falls inside said range.\\n     */\\n    function getAttributeTypeID(uint256 index) external view returns (uint256) {\\n        require(\\n            index < _attributeTypeIDs.length,\\n            \\\"Index Out of Bound!\\\"\\n        );\\n\\n        return _attributeTypeIDs[index];\\n    }\\n}\\n\",\"keccak256\":\"0x9a738e74b99099f7bec06fef037f0bafaa25069412009dc11da47e8195e35836\",\"license\":\"MIT\"},\"contracts/interfaces/ERC1616.sol\":{\"content\":\"//SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\n/**\\n * @title ERC-1616 Attribute Registry interface. ERC-165 ID: 0x5f46473f\\n */\\ninterface ERC1616 {\\n    /**\\n     * @notice Check if an attribute of the type with ID `attributeTypeID` has\\n     * been assigned to the account at `account` and is currently valid.\\n     * @param account address The account to check for a valid attribute.\\n     * @param attributeTypeID uint256 The ID of the attribute type to check for.\\n     * @return True if the attribute is assigned and valid, false otherwise.\\n     * @dev This function MUST return either true or false - i.e. calling this\\n     * function MUST NOT cause the caller to revert.\\n     */\\n    function hasAttribute(address account, uint256 attributeTypeID)\\n        external\\n        view\\n        returns (bool);\\n\\n    /**\\n     * @notice Retrieve the value of the attribute of the type with ID\\n     * `attributeTypeID` on the account at `account`, assuming it is valid.\\n     * @param account address The account to check for the given attribute value.\\n     * @param attributeTypeID uint256 The ID of the attribute type to check for.\\n     * @return The attribute value if the attribute is valid, reverts otherwise.\\n     * @dev This function MUST revert if a directly preceding or subsequent\\n     * function call to `hasAttribute` with identical `account` and\\n     * `attributeTypeID` parameters would return false.\\n     */\\n    function getAttributeValue(address account, uint256 attributeTypeID)\\n        external\\n        view\\n        returns (uint256[2] memory);\\n\\n    /**\\n     * @notice Count the number of attribute types defined by the registry.\\n     * @return The number of available attribute types.\\n     * @dev This function MUST return a positive integer value  - i.e. calling\\n     * this function MUST NOT cause the caller to revert.\\n     */\\n    function countAttributeTypes() external view returns (uint256);\\n\\n    /**\\n     * @notice Get the ID of the attribute type at index `index`.\\n     * @param index uint256 The index of the attribute type in question.\\n     * @return The ID of the attribute type.\\n     * @dev This function MUST revert if the provided `index` value falls outside\\n     * of the range of the value returned from a directly preceding or subsequent\\n     * function call to `countAttributeTypes`. It MUST NOT revert if the provided\\n     * `index` value falls inside said range.\\n     */\\n    function getAttributeTypeID(uint256 index) external view returns (uint256);\\n}\\n\",\"keccak256\":\"0xb4a0ecca9f99f48829dcb649516616516d03a6480b6a0d2f7988f7114091481b\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040805160208101909152600080825261002c916001610032565b5061008a565b8260018101928215610065579160200282015b82811115610065578251829060ff16905591602001919060010190610045565b50610071929150610075565b5090565b5b808211156100715760008155600101610076565b610492806100996000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80630e62fde6146100675780634b5f297a1461008d57806355409970146100d6578063cd6c8343146100eb578063d71710e01461010b578063ff0b719214610112575b600080fd5b61007a6100753660046103c4565b610125565b6040519081526020015b60405180910390f35b6100c661009b3660046103dd565b6001600160a01b03919091166000908152600160209081526040808320938352929052205460ff1690565b6040519015158152602001610084565b6100e96100e43660046103c4565b61018d565b005b6100fe6100f93660046103dd565b61021d565b6040516100849190610415565b600161007a565b6100e96101203660046103c4565b6102ec565b6000600182106101725760405162461bcd60e51b8152602060048201526013602482015272496e646578204f7574206f6620426f756e642160681b60448201526064015b60405180910390fd5b6000826001811061018557610185610446565b015492915050565b60008054338083526001602081815260408086208587528252808620805460ff19169093179092558151808301835286815280820187905292855260028082528286208587529091529084206101e4929091610353565b506040513381527f1f9c75914c5f19dbd88fea3650adc0d96ce1acba5863d8a8cb9c5dbf194f8f689060200160405180910390a1505050565b610225610391565b6001600160a01b038316600090815260016020908152604080832085845290915290205460ff166102985760405162461bcd60e51b815260206004820152601c60248201527f4174747269627574652074797065204944206e6f7420666f756e6421000000006044820152606401610169565b6001600160a01b038316600090815260026020818152604080842086855290915280832081518083019283905292909182845b8154815260200190600101908083116102cb57509398975050505050505050565b60008054338083526001602081815260408086208587528252808620805460ff19168417905592855260028082528386208587528083528487209384015485518087019096528086528584018990528688529252909261034c9291610353565b5050505050565b8260028101928215610381579160200282015b82811115610381578251825591602001919060010190610366565b5061038d9291506103af565b5090565b60405180604001604052806002906020820280368337509192915050565b5b8082111561038d57600081556001016103b0565b6000602082840312156103d657600080fd5b5035919050565b600080604083850312156103f057600080fd5b82356001600160a01b038116811461040757600080fd5b946020939093013593505050565b60408101818360005b600281101561043d57815183526020928301929091019060010161041e565b50505092915050565b634e487b7160e01b600052603260045260246000fdfea2646970667358221220aeebe321409d99143d02f66fee7d001cb1957316ce3ce6dc348ae3894e0572ba64736f6c63430008090033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c80630e62fde6146100675780634b5f297a1461008d57806355409970146100d6578063cd6c8343146100eb578063d71710e01461010b578063ff0b719214610112575b600080fd5b61007a6100753660046103c4565b610125565b6040519081526020015b60405180910390f35b6100c661009b3660046103dd565b6001600160a01b03919091166000908152600160209081526040808320938352929052205460ff1690565b6040519015158152602001610084565b6100e96100e43660046103c4565b61018d565b005b6100fe6100f93660046103dd565b61021d565b6040516100849190610415565b600161007a565b6100e96101203660046103c4565b6102ec565b6000600182106101725760405162461bcd60e51b8152602060048201526013602482015272496e646578204f7574206f6620426f756e642160681b60448201526064015b60405180910390fd5b6000826001811061018557610185610446565b015492915050565b60008054338083526001602081815260408086208587528252808620805460ff19169093179092558151808301835286815280820187905292855260028082528286208587529091529084206101e4929091610353565b506040513381527f1f9c75914c5f19dbd88fea3650adc0d96ce1acba5863d8a8cb9c5dbf194f8f689060200160405180910390a1505050565b610225610391565b6001600160a01b038316600090815260016020908152604080832085845290915290205460ff166102985760405162461bcd60e51b815260206004820152601c60248201527f4174747269627574652074797065204944206e6f7420666f756e6421000000006044820152606401610169565b6001600160a01b038316600090815260026020818152604080842086855290915280832081518083019283905292909182845b8154815260200190600101908083116102cb57509398975050505050505050565b60008054338083526001602081815260408086208587528252808620805460ff19168417905592855260028082528386208587528083528487209384015485518087019096528086528584018990528688529252909261034c9291610353565b5050505050565b8260028101928215610381579160200282015b82811115610381578251825591602001919060010190610366565b5061038d9291506103af565b5090565b60405180604001604052806002906020820280368337509192915050565b5b8082111561038d57600081556001016103b0565b6000602082840312156103d657600080fd5b5035919050565b600080604083850312156103f057600080fd5b82356001600160a01b038116811461040757600080fd5b946020939093013593505050565b60408101818360005b600281101561043d57815183526020928301929091019060010161041e565b50505092915050565b634e487b7160e01b600052603260045260246000fdfea2646970667358221220aeebe321409d99143d02f66fee7d001cb1957316ce3ce6dc348ae3894e0572ba64736f6c63430008090033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "countAttributeTypes()": {
+        "details": "This function MUST return a positive integer value  - i.e. calling this function MUST NOT cause the caller to revert.",
+        "returns": {
+          "_0": "The number of available attribute types."
+        }
+      },
+      "getAttributeTypeID(uint256)": {
+        "details": "This function MUST revert if the provided `index` value falls outside of the range of the value returned from a directly preceding or subsequent function call to `countAttributeTypes`. It MUST NOT revert if the provided `index` value falls inside said range.",
+        "params": {
+          "index": "uint256 The index of the attribute type in question."
+        },
+        "returns": {
+          "_0": "The ID of the attribute type."
+        }
+      },
+      "getAttributeValue(address,uint256)": {
+        "details": "This function MUST revert if a directly preceding or subsequent function call to `hasAttribute` with identical `account` and `attributeTypeID` parameters would return false.",
+        "params": {
+          "account": "address The account to check for the given attribute value.",
+          "attributeTypeID": "uint256 The ID of the attribute type to check for."
+        },
+        "returns": {
+          "_0": "The attribute value if the attribute is valid, reverts otherwise."
+        }
+      },
+      "hasAttribute(address,uint256)": {
+        "details": "This function MUST return either true or false - i.e. calling this function MUST NOT cause the caller to revert.",
+        "params": {
+          "account": "address The account to check for a valid attribute.",
+          "attributeTypeID": "uint256 The ID of the attribute type to check for."
+        },
+        "returns": {
+          "_0": "True if the attribute is assigned and valid, false otherwise."
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "countAttributeTypes()": {
+        "notice": "Count the number of attribute types defined by the registry."
+      },
+      "getAttributeTypeID(uint256)": {
+        "notice": "Get the ID of the attribute type at index `index`."
+      },
+      "getAttributeValue(address,uint256)": {
+        "notice": "Retrieve the value of the attribute of the type with ID `attributeTypeID` on the account at `account`, assuming it is valid."
+      },
+      "hasAttribute(address,uint256)": {
+        "notice": "Check if an attribute of the type with ID `attributeTypeID` has been assigned to the account at `account` and is currently valid."
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 10,
+        "contract": "contracts/governance_standard/Registry.sol:Registry",
+        "label": "_attributeTypeIDs",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_array(t_uint256)1_storage"
+      },
+      {
+        "astId": 16,
+        "contract": "contracts/governance_standard/Registry.sol:Registry",
+        "label": "_issuedAttributes",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_mapping(t_uint256,t_bool))"
+      },
+      {
+        "astId": 28,
+        "contract": "contracts/governance_standard/Registry.sol:Registry",
+        "label": "_issuedAttributeValues",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_mapping(t_address,t_mapping(t_uint256,t_array(t_uint256)2_storage))"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_uint256)1_storage": {
+        "base": "t_uint256",
+        "encoding": "inplace",
+        "label": "uint256[1]",
+        "numberOfBytes": "32"
+      },
+      "t_array(t_uint256)2_storage": {
+        "base": "t_uint256",
+        "encoding": "inplace",
+        "label": "uint256[2]",
+        "numberOfBytes": "64"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_mapping(t_address,t_mapping(t_uint256,t_array(t_uint256)2_storage))": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => mapping(uint256 => uint256[2]))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_uint256,t_array(t_uint256)2_storage)"
+      },
+      "t_mapping(t_address,t_mapping(t_uint256,t_bool))": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => mapping(uint256 => bool))",
+        "numberOfBytes": "32",
+        "value": "t_mapping(t_uint256,t_bool)"
+      },
+      "t_mapping(t_uint256,t_array(t_uint256)2_storage)": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => uint256[2])",
+        "numberOfBytes": "32",
+        "value": "t_array(t_uint256)2_storage"
+      },
+      "t_mapping(t_uint256,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_uint256",
+        "label": "mapping(uint256 => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
